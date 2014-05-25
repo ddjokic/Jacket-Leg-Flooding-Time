@@ -7,7 +7,7 @@ rb2=inout.get_float("Input Reserve buoyancy - damaged [t] or '0' for 30: ",30)
 rbt = (rb1+rb2)/2
 n = inout.get_integer("Input number of jacket legs or '0' for 3: ", 3)
 A=inout.get_float("Input Average area of rupture [sqm] or '0' for 0.25: ", 0.25)
-Vol=inout.get_float("Input innel volume of jacket leg [cum] or '0' for 10: ", 10)
+Vol=inout.get_float("Input inner volume of jacket leg [cum] or '0' for 10: ", 10)
 #Gravity acceleration
 g = 9.81
 #Seawater density (MN/m**3)
